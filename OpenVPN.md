@@ -83,4 +83,24 @@ Add line
 @reboot sudo openvpn --daemon --cd /etc/openvpn --config VPNFile.ovpn
 ````
 
+````
+sudo reboot
+````
+
+````
+srpi@SRPIMedia:~ $ ifconfig
+...
+
+tun0      Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+          inet addr:10.8.0.14  P-t-P:10.8.0.13  Mask:255.255.255.255
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1500  Metric:1
+          RX packets:21 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:40 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:100
+          RX bytes:1596 (1.5 KiB)  TX bytes:3600 (3.5 KiB)
+.....
+
+````
+
+
 
