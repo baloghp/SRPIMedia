@@ -12,3 +12,8 @@ Basic settings we will need:
 * Advanced: SSH Enabled - we are going to work headless via SSH connection
 * Boot Options: Wait for network at boot - for headless work and for the VPN init scripts to work we need this option on.
 * Memory Split: 16 MB - for headless work no GPU is needed.
+
+````
+sudo apt-get update
+sudo apt-get upgrade
+````
