@@ -7,6 +7,13 @@ sudo apt-get install qbittorrent-nox
 ````
 
 copy qbittorrent-nox-daemon to /etc/openvpn/scripts
+modify route up and down scripts
+
+
+````
+srpi@SRPIMedia:/etc/openvpn/scripts $ sudo nano route_up.sh
+srpi@SRPIMedia:/etc/openvpn/scripts $ sudo nano route_down.sh
+````
 
 route_up.sh
 
